@@ -1,0 +1,4 @@
+model,default_cv_micro_f1,tuned_cv_micro_f1,improvement_pts
+Logistic Regression,0.7186,0.7187,0.01
+Random Forest,0.7227,0.7267,0.3983
+CatBoost,0.7264,0.7276,0.12

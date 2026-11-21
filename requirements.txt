@@ -1,0 +1,14 @@
+# Environment used to produce the saved results, figures, report numbers and
+# outputs/best_model_pipeline.joblib (Python 3.13). Keep scikit-learn at 1.7.2:
+# the saved model does not load/predict reliably under other scikit-learn versions,
+# and re-running the notebook under another version can change the tuning results.
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+catboost==1.2.10
+matplotlib==3.10.6
+seaborn==0.13.2
+joblib==1.5.2
+ipykernel
+nbconvert

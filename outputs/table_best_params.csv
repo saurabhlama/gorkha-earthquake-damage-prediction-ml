@@ -1,0 +1,4 @@
+model,best_cv_micro_f1,best_params
+Logistic Regression,0.7186500000000001,"{'C': 1.0, 'class_weight': None}"
+Random Forest,0.7266666666666667,"{'n_estimators': 200, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': 20, 'class_weight': None}"
+CatBoost,0.7276333333333334,"{'random_strength': 2, 'learning_rate': 0.03, 'l2_leaf_reg': 5, 'iterations': 800, 'depth': 10, 'bagging_temperature': 0.5}"
